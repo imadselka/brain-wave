@@ -250,6 +250,7 @@ export const benefits = [
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
     light: true,
+    href: "#",
   },
   {
     id: "1",
@@ -259,6 +260,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    href: "#",
   },
   {
     id: "2",
@@ -268,6 +270,7 @@ export const benefits = [
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
     light: true,
+    href: "#",
   },
   {
     id: "3",
@@ -277,6 +280,7 @@ export const benefits = [
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
+    href: "#",
   },
   {
     id: "4",
@@ -286,6 +290,7 @@ export const benefits = [
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
     light: true,
+    href: "#",
   },
   {
     id: "5",
@@ -295,6 +300,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    href: "#",
   },
 ];
 
