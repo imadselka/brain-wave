@@ -8,7 +8,7 @@ import { GradientLight } from "./design/Benefits";
 const Benefits = () => {
   return (
     <Section id="features">
-      <div className="container relative z-2 ">
+      <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
           title="Chat Smarter, Not Harder with Brainwave"
@@ -17,8 +17,10 @@ const Benefits = () => {
         <div className="flex flex-wrap gap-5 mb-10">
           {benefits.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] hover:bg-[length:100%_100%]"
-              style={{ backgroundImage: `url(${item.backgroundUrl})` }}
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              style={{
+                backgroundImage: `url(${item.backgroundUrl})`,
+              }}
               key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
@@ -31,13 +33,10 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <a
-                    href={item.href}
-                    className="flex ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider"
-                  >
+                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
-                    <Arrow />
-                  </a>
+                  </p>
+                  <Arrow />
                 </div>
               </div>
 
