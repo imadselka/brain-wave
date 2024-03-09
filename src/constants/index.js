@@ -1,3 +1,4 @@
+import { communicate } from "..assets";
 import {
   benefitIcon1,
   benefitIcon2,
@@ -25,7 +26,6 @@ import {
   recording01,
   recording03,
   roadmap1,
-  roadmap2,
   roadmap3,
   roadmap4,
   searchMd,
@@ -78,9 +78,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Post generating",
+  "Grade Analysis",
+  "and more...",
 ];
 
 export const brainwaveServicesIcons = [
@@ -103,11 +103,11 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "September 2024",
-    status: "progress",
-    imageUrl: roadmap2,
+    title: "Messaging and file sharing system",
+    text: "Discuss and share ideas with other users through our messaging system. With this feature, you can do real-time chat with every individual associated with your institution.",
+    date: "May 2024",
+    status: "done",
+    imageUrl: communicate,
   },
   {
     id: "2",
@@ -124,6 +124,23 @@ export const roadmap = [
     date: "May 2024",
     status: "done",
     imageUrl: roadmap4,
+    colorful: true,
+  },
+  {
+    id: "4",
+    title: "online live classes",
+    text: "Stop using third-party apps like Zoom, Google meet, or Microsoft team to conduct online classes. Use our most powerful and easy-to-use platform to conduct your live online classes. It's 100% free.",
+    date: "January 2025",
+    status: "progress",
+    imageUrl: "",
+  },
+  {
+    id: "5",
+    title: "Desktop version for Windows, MacOS, and Linux",
+    text: "Download and install our school management software in your computer just paying a small one time payment.",
+    date: "January 2025",
+    status: "progress",
+    imageUrl: "",
   },
 ];
 
@@ -149,7 +166,7 @@ export const collabContent = [
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
+    title: "figma",
     icon: figma,
     width: 26,
     height: 36,
@@ -213,30 +230,36 @@ export const pricing = [
     price: "0",
     features: [
       "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Generate 3 Posts max",
+      "1 usage per month",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    description: "Advanced AI chatbot, priority support",
+    price: "699.98",
     features: [
       "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
+      "Unlimited Posts generations",
+      "Unlimited usage per month",
+      "Personalized recommendations based on your preferences",
       "Priority support to solve issues quickly",
     ],
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description: "Custom AI chatbot, advanced analytics",
     price: null,
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Custom AI chatbot tailored to your specific needs",
+      "Advanced analytics to track usage and performance",
+      "Unlimited usage per month",
+      "Integration with your existing systems",
+      "Dedicated support team to assist with any issues",
     ],
   },
 ];

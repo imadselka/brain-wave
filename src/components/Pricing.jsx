@@ -5,7 +5,7 @@ import Section from "./Section";
 import { LeftLine, RightLine } from "./design/Pricing";
 const Pricing = () => {
   return (
-    <Section className="overflow-hidden">
+    <Section className="overflow-hidden" id="pricing">
       <div className="container relative z-2">
         <div
           className="hidden relative justify-center 
@@ -33,7 +33,7 @@ const Pricing = () => {
         </div>
         <Heading
           tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          title="Pay as you go, or save with a subscription per month."
         />
         <div className="relative">
           <PricingList />
